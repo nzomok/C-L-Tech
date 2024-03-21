@@ -382,11 +382,11 @@
 		font-weight: 900;
 	}
 	.about{
-		height: 2000px;
-		background-color: rgb(247, 224, 224);
+		height: 1800px;
+		background-color: rgb(255, 255, 255);
 		position: relative;
 		z-index: 1;
-		width: 99%;
+		width: 100%;
 		right: 0;
 		scroll-behavior: smooth;
 		margin-left: -10px;
@@ -394,14 +394,14 @@
 		padding-top: 20px;
 	}
 	.about-me{
-		width: 60%;
+		width: 90%;
 		background-color: white;
-		border: 2px dotted black;
-		margin-left: 20%;
+		margin-left: 5%;
 		height: 70px;
 		text-align: center;
 		text-transform: uppercase;
 		font-family: monospace;
+		padding: 10px;
 		font-weight: 800;
 	}
 	.what-i-do{
@@ -410,13 +410,13 @@
 		margin-left:5%;
 		height: auto;
 		padding: 10px;
-		border-radius: 10px;
+		padding-left: 40px;
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 	}
 	.what-i-do p{
 		font-size: 22px;
-		font-family: monospace;
 		text-align: left;
+		text-align: center;
 	}
 	.work{
 		height: 250px;
@@ -425,5 +425,163 @@
 		display: inline-flex;
 		background-color: whitesmoke;
 	}
-	
+	.skills{
+		background-color: transparent;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0px;
+		padding: 10px;
+		padding-left: 40px;
+		height: 750px;
+		display: flex;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;	
+	}
+	.language{
+		background-color: transparent;
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0px;
+		padding: 10px;
+		padding-left: 40px;
+		height: 600px;
+		display: block;
+
+	}
+	.skills h2{
+		font-weight: 800;
+		text-transform: uppercase;
+		color: green;
+		text-decoration: underline;
+		background-color: transparent;
+		font-size: 29px;
+		font-family: monospace;
+
+	}
+	.html{
+		background-color: green;
+		height: 40px;
+		width: 400px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	.html h4{
+		background-color: transparent;
+		font-weight: 800;
+		font-size: 20px;
+		color: white;
+		text-align: left;
+		vertical-align: middle;
+		padding: 10px;
+		font-family: monospace;
+
+	}
+	.css{
+		background-color: green;
+		height: 40px;
+		width: 400px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+		}
+	.css h4{
+		background-color: transparent;
+		font-weight: 800;
+		font-size: 20px;
+		color: white;
+		text-align: left;
+		vertical-align: middle;
+		padding: 10px;
+		font-family: monospace;
+
+
+	}
+	.js{
+		background-color: green;
+		height: 40px;
+		width: 300px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+	}
+	.js h4{
+		background-color: transparent;
+		font-weight: 800;
+		font-size: 20px;
+		color: white;
+		text-align: left;
+		vertical-align: middle;
+		padding: 10px;
+		font-family: monospace;
+
+
+	}
+	.python{
+		background-color: green;
+		height: 40px;
+		width: 390px;
+		border-bottom-right-radius: 20px;
+		border-top-right-radius: 20px;
+
+	}
+	.python h4{
+		background-color: transparent;
+		font-weight: 800;
+		font-size: 20px;
+		color: white;
+		text-align: left;
+		vertical-align: middle;
+		padding: 10px;
+		font-family: monospace;
+	}
+	.other-skills{
+		background-color: transparent;
+		display: block;
+		height: 500px;
+		width: 380px;
+		
+	}
+	.other{
+		background-color: green;
+		width: 90%;
+		border: 2px dotted rgb(0, 0, 0);
+		border-radius: 2px;
+		padding: 10px;
+		text-align: center;
+		text-decoration: none;
+		color: white;
+	}
+	.other h3{
+		background-color: transparent;
+		font-size: 18px;
+		font-weight: 700;
+		font-family: monospace;
+	}
+	.photography{
+		background-color: rgba(255, 255, 255, 0.558);
+		width: 90%;
+		border: 2px dotted green;
+		border-radius: 1px;
+		padding: 10px;
+		height: 400px;
+		text-align: center;
+		text-decoration: none;
+	}
+	.photography img{
+		margin-left: -550px;
+		width: 300%;
+		margin-top: -180px;
+		position: relative;
+		z-index:-1;
+	}
+	.photography ul{
+		text-align: left;
+		font-size: 22px;
+		font-family: monospace;
+		font-weight: 700;
+		margin-top: -600px;
+		margin-left: 40px;
+		background-color: transparent;
+	}
+	li{
+		margin-bottom: 20px;
+		background-color: transparent;
+	}
 }
